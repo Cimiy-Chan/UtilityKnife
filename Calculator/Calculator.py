@@ -9,9 +9,15 @@ class calculator_api:
     def op_add(self):
         return self.a + self.b
 
+    def op_sub(self):
+        return self.a - self.b
+
 
 if __name__ == '__main__':
     obj_cal = calculator_api(3, 4)
     a = obj_cal.op_add()
-    print (f'Result={a}')
+    b = obj_cal.op_sub()
+    print (f'Result ADD={a}')
+    print (f'Result DUB={b}')
+
 
