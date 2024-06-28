@@ -30,5 +30,4 @@ if __name__ == '__main__':
     print (f'Result DIV={d}')
 
 # Add func -10
-
-    
+# Add func - 11
