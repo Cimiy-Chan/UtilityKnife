@@ -28,4 +28,7 @@ if __name__ == '__main__':
     print (f'Result SUB={b}')
     print (f'Result MUL={c}')
     print (f'Result DIV={d}')
+
+# Add func -10
+
     
